@@ -4,7 +4,6 @@ def prime?(int)
       false
     else
       ((2...int).to_a).all? {|test| int % test != 0} 
-        
-  end
+    end
 end
 
